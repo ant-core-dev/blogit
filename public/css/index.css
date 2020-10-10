@@ -1,0 +1,21 @@
+body {
+  background: #344557 url(https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?fit=crop&fm=jpg&h=700&q=75&w=1050) 0 0 no-repeat;
+  background-size: cover;
+}
+
+body:after {
+  background: rgba(52, 69, 87, 0.85);
+}
+
+/* helpers */
+
+.absolute-centering,
+body:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
